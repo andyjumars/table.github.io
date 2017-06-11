@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>認識表單</title>
+    <link rel="stylesheet" href="submit.css">
+</head>
+<body>
+	<form action="index.html">
+	<lable for="">電子郵件:</lable>
+	<input id="mail" type="text" placeholder="請輸入電子郵件" name="mail">
+	<lable for="person">姓名:</lable>
+	<input id="person" type="text"  placeholder="請輸入姓名" name="person">
+	<input type="submit" value="送出">
+
+
+	<h2>性別</h2>
+	<input type="radio" name="sex" value="male">男生
+	<input type="radio" name="sex" value="female">女生
+
+	<h2>興趣</h2>
+	<input type="checkbox" value="movie" name="hobby">看電影
+	<input type="checkbox" value="sport" name="hobby">運動
+	<input type="checkbox" value="music" name="hobby">音樂
+	<input type="checkbox" value="travel" name="hobby">旅遊
+    <br>
+	<br>
+
+    <label for="birth">生日：</label>
+	<select id="birth" name="birth">
+	 <option value="1990">1990</option>
+	 <option value="1991">1991</option>		
+	<input type="submit" name="送出">
+<br>
+
+<h2>內容</h2>	
+<<textarea name="content"  cols="30" rows="10"></textarea>
+
+		
+	</select>
+
+
+</body>
+</html>
